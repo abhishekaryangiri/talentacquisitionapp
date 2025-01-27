@@ -1,0 +1,9 @@
+2025-01-27 15:06:22,230 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-27 15:08:59,519 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.talentacquisitionapp:talentacquisitionapp:0.0.1-SNAPSHOT @ C:\Users\msi\Downloads\talentacquisitionapp\talentacquisitionapp\pom.xml.
+2025-01-27 15:09:00,609 [Worker-5: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-01-27 15:09:00,612 [Worker-5: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
+2025-01-27 15:09:02,718 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /talentacquisitionapp/src/main/java
+2025-01-27 15:09:02,724 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /talentacquisitionapp/src/main/resources
+2025-01-27 15:09:02,726 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /talentacquisitionapp/src/main/resources
+2025-01-27 15:09:02,730 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /talentacquisitionapp/src/test/java
+2025-01-27 15:09:02,732 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /talentacquisitionapp/src/test/resources

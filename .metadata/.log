@@ -139,3 +139,51 @@ java.lang.LinkageError: loader constraint violation: loader org.eclipse.osgi.int
 	at org.eclipse.oomph.internal.ui.EarlyStart.run(EarlyStart.java:119)
 	at org.eclipse.oomph.internal.ui.EarlyStart$1.run(EarlyStart.java:98)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-27 15:08:57.412
+!MESSAGE Classpath changed for project: talentacquisitionapp
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-27 15:09:00.611
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-27 15:09:00.613
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-27 15:09:02.321
+!MESSAGE Classpath changed for project: talentacquisitionapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-27 15:09:02.337
+!MESSAGE Boot project ADDED: talentacquisitionapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-27 15:09:02.338
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-27 15:09:02.387
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-27 15:09:02.446
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\msi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/msi/Documents/GitHub/talentacquisitionapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1737970742442
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\msi\eclipse\java-2024-063\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-27 15:09:02.448
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-27 15:09:02.465
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3884
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-27 15:09:02.714
+!MESSAGE Classpath changed for project: talentacquisitionapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-27 15:09:04.455
+!MESSAGE Classpath changed for project: talentacquisitionapp

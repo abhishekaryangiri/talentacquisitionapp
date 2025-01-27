@@ -187,3 +187,12 @@ END
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-27 15:09:04.455
 !MESSAGE Classpath changed for project: talentacquisitionapp
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-27 15:09:06.115
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-27 15:09:06.116
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-27 15:09:07.702
+!MESSAGE Classpath changed for project: talentacquisitionapp

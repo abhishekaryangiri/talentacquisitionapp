@@ -7,3 +7,6 @@
 2025-01-27 15:09:02,726 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /talentacquisitionapp/src/main/resources
 2025-01-27 15:09:02,730 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /talentacquisitionapp/src/test/java
 2025-01-27 15:09:02,732 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /talentacquisitionapp/src/test/resources
+2025-01-27 15:09:03,828 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2025-01-27 15:09:04,475 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-01-27 15:09:05,409 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.talentacquisitionapp:talentacquisitionapp:0.0.1-SNAPSHOT @ C:\Users\msi\Downloads\talentacquisitionapp\talentacquisitionapp\pom.xml.

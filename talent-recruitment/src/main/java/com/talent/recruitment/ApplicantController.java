@@ -58,7 +58,7 @@ class ApplicantController {
             return ResponseEntity.ok(applicant);
         } catch (Exception e) {
             e.printStackTrace(); // Log the error stack trace
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null); // Return internal server error
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
         }
     }
 

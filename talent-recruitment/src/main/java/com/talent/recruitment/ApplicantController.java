@@ -49,7 +49,8 @@ class ApplicantController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
         }
     }
-    //Get based on id
+
+    // Get applicant by ID
     @GetMapping("/{id}")
     public ResponseEntity<Applicant> getApplicantById(@PathVariable Long id) {
         try {
@@ -57,7 +58,7 @@ class ApplicantController {
                     .orElseThrow(() -> new RuntimeException("Applicant not found with id " + id));
             return ResponseEntity.ok(applicant);
         } catch (Exception e) {
-            e.printStackTrace(); // Log the error stack trace
+            e.printStackTrace();
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
         }
     }
@@ -81,14 +82,25 @@ class ApplicantController {
             Applicant existingApplicant = applicantRepository.findById(id)
                     .orElseThrow(() -> new RuntimeException("Applicant not found"));
 
+            // Update the applicant details with the new information
             existingApplicant.setFullName(updatedApplicant.getFullName());
             existingApplicant.setEmailAddress(updatedApplicant.getEmailAddress());
             existingApplicant.setPhoneNumber(updatedApplicant.getPhoneNumber());
             existingApplicant.setCity(updatedApplicant.getCity());
             existingApplicant.setExpectedSalary(updatedApplicant.getExpectedSalary());
 
-            // Update other fields as necessary
+            // Optionally update education details, work experiences, and skills if available
+            if (updatedApplicant.getEducationDetails() != null) {
+                existingApplicant.setEducationDetails(updatedApplicant.getEducationDetails());
+            }
+            if (updatedApplicant.getWorkExperiences() != null) {
+                existingApplicant.setWorkExperiences(updatedApplicant.getWorkExperiences());
+            }
+            if (updatedApplicant.getSkillSet() != null) {
+                existingApplicant.setSkillSet(updatedApplicant.getSkillSet());
+            }
 
+            // Save the updated applicant
             Applicant savedApplicant = applicantRepository.save(existingApplicant);
             return ResponseEntity.ok(savedApplicant);
         } catch (Exception e) {
@@ -97,7 +109,6 @@ class ApplicantController {
         }
     }
 
-    
     // Delete an applicant by ID
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteApplicant(@PathVariable Long id) {
